@@ -1,7 +1,9 @@
 import Head from 'next/head'
-
 import Layout from '@/components/Layout/Layout'
 import Banner from '@/components/Banner/Banner'
+import Description from '@/components/Description/Description'
+import Gallery from '@/components/Gallery/Gallery'
+import Footer from '@/components/Footer/Footer'
 
 
 export default function Home() {
@@ -15,6 +17,9 @@ export default function Home() {
       </Head>
       <Layout>
         <Banner />
+        <Description />
+        <Gallery />
+        <Footer />
       </Layout>
     </>
   )
