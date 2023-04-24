@@ -18,15 +18,15 @@ const Footer = () => {
             <ContactWrapper>
                 <div>
                     <WhatsAppIcon sx={{color: "#1E394D", fontSize: 80}}/>
-                    <a href="https://wa.me/56975451656" target="_blank">+56 9 7545 1656</a>
+                    <a href="https://wa.me/56975451656" target="_blank" rel="noreferrer" alt="Whatsapp Icon">+56 9 7545 1656</a>
                 </div>
                 <div>
                     <InstagramIcon sx={{color: "#1E394D", fontSize: 80}}/>
-                    <a href="https://instagram.com/pajaro.errante.audiovisual?igshid=YmMyMTA2M2Y=" target="_blank">@pajaro.errante.audiovisual</a>
+                    <a href="https://instagram.com/pajaro.errante.audiovisual?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer" alt="Instagram Icon">@pajaro.errante.audiovisual</a>
                 </div>
                 <div>
                     <YouTubeIcon sx={{color: "#1E394D", fontSize: 80}}/>
-                    <a href="https://www.youtube.com/@pixion.filmschile" target="_blank">Pixion Films Chile</a>
+                    <a href="https://www.youtube.com/@pixion.filmschile" target="_blank" rel="noreferrer" alt="Youtube Icon">Pixion Films Chile</a>
                 </div>
             </ContactWrapper>
         </FooterWrapper>
