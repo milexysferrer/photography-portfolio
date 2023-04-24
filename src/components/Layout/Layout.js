@@ -1,6 +1,5 @@
-import Header from '../Header/Header'
-import { LayoutMain } from './Layout.style'
-//import Footer from './footer'
+import Header from '../Header/Header';
+import { LayoutMain } from './Layout.style';
 
 export default function Layout({ children }) {
   return (
@@ -9,7 +8,6 @@ export default function Layout({ children }) {
         <LayoutMain>
           {children}
         </LayoutMain>
-      {/* <Footer /> */}
     </>
   )
 }
