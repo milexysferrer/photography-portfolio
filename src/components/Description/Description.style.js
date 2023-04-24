@@ -13,17 +13,25 @@ export const Wrapper = styled.div`
         color: #FFFFFF;
         padding-block: 1rem;
         letter-spacing: 2px;
-    }
+    }  @media only screen and (max-width: 1024px) {
+        width: 90%;
+  }
 `;
 
 export const DescriptionParagraph = styled.p`
     margin-block: 1.5rem;
     padding-inline: 3rem;
     text-align: center;
+    @media only screen and (max-width: 1024px) {
+        padding-inline: 1rem;
+  }
 `;
 
 export const DescriptionWrapper = styled.div`
     display: flex;
+    @media only screen and (max-width: 800px) {
+        flex-direction: column;
+  }
 `;
 
 export const DescriptionItem = styled.div`
@@ -31,6 +39,10 @@ export const DescriptionItem = styled.div`
     h2{
         margin-block-end: 0.5rem;
     }
+    @media only screen and (max-width: 800px) {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -41,4 +53,7 @@ export const ImageWrapper = styled.div`
     img{
         border-radius: 20px;
     }
+    @media only screen and (max-width: 800px) {
+        margin-block-end: 1rem;
+  }
 `;
