@@ -29,7 +29,7 @@ export const DescriptionParagraph = styled.p`
 
 export const DescriptionWrapper = styled.div`
     display: flex;
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 940px) {
         flex-direction: column;
   }
 `;
